@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    
+    margin: 0;
+
+}
+.main{
+    display: flex;
+    min-height: 100vh;
+    min-width: 100vw;
+    /* flex-direction: row; */
+}
+.nav{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    background-color: azure
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+    min-height: 600px;
+}
+.header{
+    display: flex;
+    flex: 1;
+    min-height: 200px;
+    background-color: greenyellow;
+    
+}
+.artikle{
+    display: flex;
+    flex: 4;
+    background-color: red;
+    
+}
+.footer{
+    display: flex;
+    flex: 1;
+    min-height: 200px;
+    background-color: greenyellow;
+    
+}
